@@ -1,0 +1,118 @@
+.product-container {
+    margin: 4rem 10rem 4rem;
+}
+
+.cabecera-products {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family: Raleway;
+}
+
+.cabecera-products div {
+    display: flex;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.box-container img {
+    width: 226px;
+    height: 224px;
+}
+
+.cabecera-products p {
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #2A7AE4;
+    margin-top: 0.5rem;
+}
+
+.cabecera-products div{
+    display: flex;
+    box-sizing: border-box;
+    width: 7rem;
+    cursor: pointer;
+}
+
+.cabecera-products img {
+    width: 1.5rem;
+    margin-left: 0.7rem;
+}
+
+.box-container h3 {
+    font-size: 0.87rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.box-container p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.box-container a {
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+.box-container span {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.cabecera-products a{
+    text-decoration: none;
+}
+
+/*Responsive*/
+@media (max-width: 1440px){
+    .box-container img{
+        width: 160px;
+        height: 158px;
+    }
+}
+@media (max-width: 1280px){
+    .box-grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto ;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 900px){
+    .box-grid{
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+    .product-container{
+        margin: 1rem 1rem 1rem ;
+    }
+    .box-container img{
+        width: 166px;
+        height: 164px;
+    }
+}
+@media (max-width: 414px){
+    .box-grid{
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 1rem;
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 375px){
+    .box-container img{
+        width: 156px;
+        height: 154px;
+    }
+}
